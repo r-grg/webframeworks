@@ -1,0 +1,27 @@
+.card {
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0,0,0,.06);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.imgWrap {
+  aspect-ratio: 4/3;
+  background: #f3f4f6;
+  overflow: hidden;
+}
+
+.imgWrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.body { padding: 12px; }
+.title { margin: 0 0 4px; font-weight: 700; }
+.meta { margin: 0; color: #6b7280; font-size: 14px; }
+.desc { margin: 8px 0 0; font-size: 14px; line-height: 1.4; }

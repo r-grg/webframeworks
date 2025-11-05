@@ -1,0 +1,9 @@
+.visible {
+  filter: none;
+  transition: filter 0.3s ease;
+}
+
+.hidden {
+  filter: brightness(0);
+  transition: filter 0.3s ease;
+}

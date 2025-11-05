@@ -1,0 +1,50 @@
+.machine {
+background: #ffffff;
+border: 1px solid #e6e6e6;
+border-radius: 16px;
+box-shadow: 0 2px 10px rgba(0,0,0,0.04);
+padding: 16px;
+color: black;
+}
+
+
+.header {
+display: flex;
+align-items: baseline;
+justify-content: space-between;
+margin-bottom: 12px;
+}
+
+
+.title {
+margin: 0;
+font-size: 16px;
+}
+
+
+.win {
+color: #0c8b2f; /* groen */
+font-weight: 600;
+}
+
+
+.lose {
+color: #c62828; /* rood */
+font-weight: 600;
+}
+
+
+.grid {
+display: grid;
+gap: 12px;
+}
+
+
+.footer {
+margin-top: 12px;
+}
+
+
+.muted {
+color: #9aa0a6;
+}
