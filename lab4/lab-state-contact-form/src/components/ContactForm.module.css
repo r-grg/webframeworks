@@ -1,0 +1,53 @@
+.form {
+  max-width: 680px;
+  margin: 32px auto;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  gap: 12px;
+  align-items: start;
+  margin-bottom: 10px;
+}
+
+label {
+  padding-top: 6px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 14px;
+  background: #fff;
+  color: black;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+button {
+  padding: 8px 16px;
+  border: 1px solid #cbd5e1;
+  background: #f8fafc;
+  border-radius: 6px;
+  cursor: pointer;
+  color: black;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.confirmation {
+  margin-top: 14px;
+  text-align: center;
+  font-weight: 600;
+}

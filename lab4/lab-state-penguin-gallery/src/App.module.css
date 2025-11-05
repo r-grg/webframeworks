@@ -1,0 +1,19 @@
+.page {
+  min-height: 100vh;
+  background: #f3f4f6;
+  padding: 24px;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: #111827;
+}
+
+.title { margin: 0 0 16px; }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+/* Optioneel: responsief */
+@media (max-width: 900px) { .grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 600px) { .grid { grid-template-columns: 1fr; } }

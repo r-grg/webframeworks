@@ -1,0 +1,33 @@
+.container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  padding: 10px 16px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background: white;
+  cursor: pointer;
+  color: black;
+}
+
+button:hover {
+  background: #f0f0f0;
+}
+
+.cat {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 8px;
+  object-fit: cover;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  transition: left 0.3s ease, top 0.3s ease;
+}
