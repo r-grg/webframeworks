@@ -1,0 +1,67 @@
+/* Container */
+.wrap {
+  max-width: 560px;
+  margin: 24px auto;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: #f8fafc; /* lichte tekst voor donkere achtergrond */
+}
+
+/* Searchbar */
+.search {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.search input {
+  padding: 6px 8px;
+  border: 1px solid #475569;
+  border-radius: 6px;
+  background: #1e293b; /* donker inputveld */
+  color: #f8fafc;
+}
+
+.search input::placeholder {
+  color: #94a3b8;
+}
+
+/* Table */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #0f172a; /* donkere tabelachtergrond */
+  border: 1px solid #334155;
+}
+
+.table th,
+.table td {
+  border: 1px solid #334155;
+  padding: 8px 10px;
+  text-align: left;
+}
+
+.table thead th {
+  background: #1e293b;
+  color: #f1f5f9;
+  cursor: pointer;
+  user-select: none;
+}
+
+.table tbody tr:nth-child(even) {
+  background: #1e293b;
+}
+
+.table tbody tr:nth-child(odd) {
+  background: #0f172a;
+}
+
+.table td {
+  color: #f8fafc;
+}
+
+/* Highlight active sort column */
+.active {
+  color: #38bdf8; /* helderblauw accent */
+  text-decoration: underline;
+}
